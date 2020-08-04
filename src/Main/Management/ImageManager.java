@@ -22,6 +22,7 @@ public class ImageManager {
     public BufferedImage backgroundBattle = null;
     public BufferedImage FULLNOTE = null;
     public BufferedImage EMPTYNOTE = null;
+    public Animation animation;
 
 
 
