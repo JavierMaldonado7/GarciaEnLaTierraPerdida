@@ -21,7 +21,7 @@ public class Animation {
 
     }
 
-    public void animate(){
+    public void reverseanimate(){
 
         this.time = System.currentTimeMillis();
 
@@ -53,12 +53,12 @@ public class Animation {
 
 
 
-        animate();
+        reverseanimate();
 
 
     }
 
-    public void reverseanimate(){
+    public void animate(){
 
         this.time = System.currentTimeMillis();
 
@@ -81,7 +81,7 @@ public class Animation {
 
 
 
-        animate();
+      animate();
 
 
     }
